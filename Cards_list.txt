@@ -1,0 +1,404 @@
+Keldon Raider
+Soul-Scar Mage
+Planebound Accomplice
+Arc Mage
+Akroan Line Breaker
+Reckless Cohort
+Embraal Gear-Smasher
+Seasoned Pyromancer
+Ma Chao, Western Warrior
+Professional Face-Breaker
+Burning Shield Askari
+Kargan Intimidator
+Nef-Crop Entangler
+Dragonkin Berserker
+Kolaghan Stormsinger
+Kolaghan Forerunners
+Najeela, the Blade-Blossom
+Deputized Protester
+Agent of Stromgald
+Abbot of Keral Keep
+Keral Keep Disciples
+Keldon Vandals
+Dragon's Rage Channeler
+Radha's Firebrand
+Vulshok Heartstoker
+Fireslinger
+Roc Hunter
+Keldon Flamesage
+Firefist Adept
+Paragon of Fierce Defiance
+Valduk, Keeper of the Flame
+Captivating Crew
+Forerunner of the Empire
+Borderland Marauder
+Barbarian Lunatic
+Brazen Freebooter
+Bola Warrior
+Kamahl, Pit Fighter
+Humble Defector
+Keldon Champion
+Harsh Mentor
+Storm Herald
+Stormcaller of Keranos
+Chaos Lord
+Scrapyard Steelbreaker
+Valakut Invoker
+Gnat Alley Creeper
+Reckless Fireweaver
+Keldon Overseer
+Leaping Master
+Shivan Emissary
+Pardic Lancer
+Balduvian War-Makers
+Vithian Stinger
+Halberdier
+Fervent Paincaster
+Murasa Pyromancer
+Zealous Conscripts
+Whip Sergeant
+Heartfire Immolator
+Burning Prophet
+Lightning Berserker
+Daring Buccaneer
+Ardent Elementalist
+Fallen Ferromancer
+Thermo-Alchemist
+Captain Lannery Storm
+Balduvian Barbarians
+Tilonalli's Skinshifter
+Pyromantic Pilgrim
+Bloodbraid Marauder
+Archetype of Aggression
+Varchild, Betrayer of Kjeldor
+Firemantle Mage
+Weaver of Lightning
+Hardened Berserker
+Prodigal Pyromancer
+Sabertooth Outrider
+Flailing Soldier
+Incendiary Oracle
+Angrath's Marauders
+Harmonic Prodigy
+Firebrand Archer
+Fearless Halberdier
+Lightning Runner
+Yuan Shao, the Indecisive
+Stonewright
+Jeska, Warrior Adept
+Orthion, Hero of Lavabrink
+Somberwald Vigilante
+Gathan Raiders
+Desert Nomads
+Unchained Berserker
+Kolaghan Aspirant
+Thunderscape Apprentice
+Acolyte of the Inferno
+Akoum Stonewaker
+Tuskeri Firewalker
+Grim Lavamancer
+Magmatic Channeler
+Sisters of the Flame
+Trailblazing Historian
+Battle-Mad Ronin
+Splatter Thug
+Frillscare Mentor
+Rowdy Crew
+Cunning Bandit // Azamuki, Treachery Incarnate
+Ceremonial Guard
+Arni Brokenbrow
+Kruin Striker
+Ghitu Fire-Eater
+Bogardan Dragonheart
+Fire Bowman
+Otepec Huntmaster
+Riot Ringleader
+Ardent Electromancer
+Magus of the Arena
+War-Name Aspirant
+Human
+Brallin, Skyshark Rider
+Moggcatcher
+Swaggering Corsair
+Barbarian Outcast
+Thopter Engineer
+Firebrand Ranger
+Imperial Recruiter
+Robber of the Rich
+Arena Athlete
+Champions of Archery // Join the Group
+Mishra, Excavation Prodigy
+Iizuka the Ruthless
+Scrapper Champion
+Wyll, Blade of Frontiers
+Ghitu Journeymage
+Chandler
+Audacious Reshapers
+Embereth Shieldbreaker // Battle Display
+Wrecking Crew
+Akroan Conscriptor
+Stoneshaker Shaman
+Dragon Whisperer
+Alpine Guide
+Ronin Cavekeeper
+Reckless Embermage
+Gerrard's Irregulars
+Koth's Courier
+Illustrious Historian
+Chakram Slinger
+Barbarian Bully
+Irencrag Pyromancer
+Opportunist
+Burning-Tree Vandal
+Brothers Yamazaki
+Aerathi Berserker
+Combat Celebrant
+Bloodfire Enforcers
+Speedway Fanatic
+Reinforced Ronin
+Hanweir Lancer
+Young Pyromancer
+Highland Berserker
+Keldon Strike Team
+Frazzled Editor
+Cinder Seer
+Blade-Tribe Berserkers
+Storm Shaman
+Storm Fleet Swashbuckler
+Bogardan Lancer
+Blood Knight
+Magus of the Moon
+Tavern Scoundrel
+Sparkmage Apprentice
+Vulshok Berserker
+Alesha, Who Smiles at Death
+Ronin Houndmaster
+Arena Trickster
+Dragonspeaker Shaman
+Cave People
+Mirror-Style Master
+Lightning Mauler
+Kumano, Master Yamabushi
+Rakka Mar
+Burning-Yard Trainer
+Vulshok Sorcerer
+Yellow Scarves General
+Priest of Iroas
+Maulfist Doorbuster
+Ghirapur Gearcrafter
+Pia Nalaar
+Lovisa Coldeyes
+Vulshok Refugee
+Goma Fada Vanguard
+Frontline Rebel
+Academy Raider
+Ingenious Artillerist
+Sell-Sword Brute
+Exhibition Magician
+Jaxis, the Troublemaker
+Feldon, Ronom Excavator
+Veteran Brawlers
+Embereth Skyblazer
+Kari Zev, Skyship Raider
+Dire Fleet Daredevil
+Armorer Guildmage
+Creepy Puppeteer
+Smelt-Ward Gatekeepers
+Hanweir Garrison
+Aethertorch Renegade
+Keldon Berserker
+Martyr of Ashes
+Impetuous Sunchaser
+Loyal Apprentice
+Altac Bloodseeker
+Scorch Rider
+Death-Greeter's Champion
+Brimstone Mage
+Bloodlust Inciter
+Tilonalli's Summoner
+Renegade Troops
+Stormblood Berserker
+Pia and Kiran Nalaar
+Fortune Thief
+Storm Fleet Pyromancer
+Latulla, Keldon Overseer
+Akroan Sergeant
+Aether Chaser
+Yuan Shao's Infantry
+Soldier of Fortune
+Keeper of the Flame
+Fervent Champion
+Wojek Bodyguard
+Ghitu Slinger
+Ghitu Lavarunner
+Dualcaster Mage
+Breya's Apprentice
+Unlucky Witness
+Yellow Scarves Cavalry
+Mad Prophet
+Rowan's Stalwarts
+Flowstone Channeler
+Fervent Cathar
+Rage Weaver
+Kinetic Augur
+Magus of the Scroll
+Acolyte Hybrid
+Thunderscape Battlemage
+Pardic Collaborator
+Sweatworks Brawler
+Spellgorger Barbarian
+Manic Vandal
+Frontier Warmonger
+Subira, Tulzidi Caravanner
+Joven
+Berserkers of Blood Ridge
+Pardic Arsonist
+Upriser Renegade
+Firefist Striker
+Impetuous Protege
+Mage-Ring Bully
+Keldon Halberdier
+Seismic Mage
+Fathom Fleet Firebrand
+Blazing Blade Askari
+Bomber Corps
+Heiko Yamazaki, the General
+Canyon Lurkers
+Thundering Sparkmage
+Skirk Alarmist
+Skirsdag Cultist
+Ghitu Amplifier
+Valley Dasher
+Flamespeaker Adept
+Cunning Sparkmage
+Ghitu Chronicler
+Ash Zealot
+Vorthos, Steward of Myth
+Wojek Embermage
+Bloodboil Sorcerer
+Radiant Performer
+Tilonalli's Knight
+Maraxus of Keld
+Ghor-Clan Wrecker
+Telim'Tor
+Prophetic Flamespeaker
+Keldon Warcaller
+Bloodthorn Taunter
+Dragonmaster Outcast
+Ravaging Horde
+Norin the Wary
+Independent Troops
+Rix Maadi Reveler
+Hyperion Blacksmith
+Quicksmith Genius
+Godo's Irregulars
+Feldon of the Third Path
+Rionya, Fire Dancer
+Diaochan, Artful Beauty
+Pathmaker Initiate
+Spontaneous Artist
+Brood Keeper
+Syr Carah, the Bold
+Brazen Buccaneers
+Chaos Harlequin
+Avalanche Riders
+Coastline Marauders
+Alena, Kessig Trapper
+Eron the Relentless
+Fallaji Chaindancer
+Fumiko the Lowblood
+Jaya Ballard, Task Mage
+Spiraling Duelist
+Rowan's Battleguard
+Ronin Cliffrider
+Vulshok Battlemaster
+Conscripted Infantry
+Revolutionist
+Dragon-Style Twins
+Tomakul Scrapsmith
+Mirage Phalanx
+Jund Battlemage
+Towashi Songshaper
+Keldon Arsonist
+Searing Spear Askari
+Expedition Champion
+Renegade Firebrand
+Barbarian General
+Scab-Clan Berserker
+Kris Mage
+Fireflux Squad
+Tiger-Tribe Hunter
+Keldon Firebombers
+Quicksmith Rebel
+Crimson Mage
+Rockslide Sorcerer
+Akroan Crusader
+Reckless Racer
+Kessig Wolfrider
+Champion of the Flame
+Monastery Swiftspear
+Gore-House Chainwalker
+Proficient Pyrodancer
+Holga, Relentless Rager
+Magus of the Wheel
+Kargan Dragonrider
+Fault Riders
+Spellbinding Soprano
+Keldon Marauders
+Embersmith
+Labyrinth Champion
+Thunderscape Master
+Mountain Bandit
+Mardu Heart-Piercer
+Priest of Urabrask
+Caves of Chaos Adventurer
+Blaster Mage
+Defender of Chaos
+Barbarian Riftcutter
+Branded Brawlers
+Spikewheel Acrobat
+Chaos Channeler
+Kessig Flamebreather
+Aisha of Sparks and Smoke
+Akoum Battlesinger
+Kargan Dragonlord
+Barbarian Horde
+Inventor's Apprentice
+Drannith Stinger
+Possessed Barbarian
+Hell-Bent Raider
+Embereth Paladin
+Kessig Malcontents
+Captain Ripley Vance
+Ali Baba
+Boarding Party
+Barbarian Guides
+Akoum Flameseeker
+Dismissive Pyromancer
+Hero of Oxid Ridge
+Laurine, the Diversion
+Suq'Ata Lancer
+Spireside Infiltrator
+Enraged Revolutionary
+Hammer Mage
+Balduvian Warlord
+Flamerush Rider
+Kumano's Pupils
+Merchant of the Vale // Haggle
+Godo, Bandit Warlord
+Frostwielder
+Sizzling Soloist
+Exuberant Firestoker
+Dragonsoul Knight
+Rage Thrower
+Homura, Human Ascendant // Homura's Essence
+Enthralling Victor
+Conspiracy Theorist
+Horde Ambusher
+Daybreak Combatants
+Hero of the Games
+Yellow Scarves Troops
+Balduvian Horde
+Obsessive Astronomer
+Shock Troops
+Peerless Samurai
