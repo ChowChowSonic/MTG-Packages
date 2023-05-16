@@ -5,3 +5,4 @@
 	<input type="password" name="pw"/><br>
 	<input type="submit"/><br>
 </form>
+<?php include_once("footer.php")?>

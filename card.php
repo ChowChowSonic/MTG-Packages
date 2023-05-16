@@ -24,7 +24,7 @@ $card = $card->fetch();
 		window.history.replaceState(null, null, window.location.href);
 	}
 </script>
-<main>
+<main style="height:800px;">
 	<img src="./images/<?php echo getFileName($_GET['name']) ?>.jpg" alt="<?php echo getFileName(sanitize($_GET['name'])) ?>.jpg" style="float:left;">
 	<?php if ($_SESSION['isLoggedIn'] == true) { ?>
 		<form method="post">
@@ -86,3 +86,4 @@ $card = $card->fetch();
 	}
 	?>
 </main>
+<?php include_once("footer.php")?>

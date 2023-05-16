@@ -18,3 +18,4 @@
 		echo "Sorry! This username already exists! Please try again using a different name!"; 
 	}
 ?>
+<?php include_once("footer.php")?>

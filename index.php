@@ -5,12 +5,14 @@
 // $json = json_decode(file_get_contents("min-cards.json")); 
 if(!key_exists('package', $_GET))
 	$_GET['package'] = 'ramp';
-$sql = 'SELECT name, '.sanitize($_GET['package']).' FROM `cards` WHERE colors="'.$color_comb.'" ORDER BY '.sanitize($_GET['package']).' DESC'; 
+
+$sql = 'SELECT name, '.sanitize($_GET['package']).' FROM `cards` WHERE colors="'.$color_comb.
+			'" ORDER BY '.sanitize($_GET['package']).' DESC LIMIT '.$maxResultPerPage.
+			' OFFSET '.$maxResultPerPage*sanitize($_GET['page']).''; 
 // echo $sql."<br>"; 
 $json = $db->prepare($sql); $json->execute();  $json = $json->fetchAll(); 
-// var_dump($json[0]); 
- 
-for($x=$maxResultPerPage*(sanitize($_GET['page'])); $x < sizeof($json) && $x < $maxResultPerPage*(sanitize($_GET['page'])+1); $x++){
+
+for($x=0; $x < sizeof($json); $x++){
 	$card = $json[$x]; 
 		?>
 		<span class="reviewbox">
@@ -35,3 +37,4 @@ for($x=$maxResultPerPage*(sanitize($_GET['page'])); $x < sizeof($json) && $x < $
 </form>
 </p>
 </main>
+<?php include_once("footer.php")?>

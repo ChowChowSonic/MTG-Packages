@@ -23,3 +23,4 @@ if(key_exists("pw", $_POST) && key_exists("nam", $_POST)){
 <?php 
 }else echo "You're logged in!"; 
 	?>
+	<?php include_once("footer.php")?>

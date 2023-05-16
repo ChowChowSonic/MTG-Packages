@@ -16,10 +16,12 @@ try {
 } catch (PDOException $e) {
 	//	echo $e->getMessage();
 }
+
 if(!key_exists('page', $_GET)) $_GET['page'] = 0; 
 $packages = ["ramp", "draw", "tutor", "removal", "boardwipe", "wincon", "stax"];
 $color_comb = "";
-$maxResultPerPage = 50; 
+$maxResultPerPage = 60; 
+
 foreach (["W", "U", "B", "R", "G"] as $colors) {
 	if (key_exists($colors, $_GET)) {
 		$color_comb .= $colors;
@@ -95,7 +97,7 @@ function getWUBRG()
 
 	<form action="<?php if ($_SESSION['isLoggedIn'] == true) echo "index.php";
 					else echo "login.php"; ?>">
-		<input style="position:relative; right:-45%; top:-170px;" type="submit" name="<?php if ($_SESSION['isLoggedIn'] == true) echo "logout" ?>" 
+		<input style="position:relative; right:-45%; top:-160px;" type="submit" name="<?php if ($_SESSION['isLoggedIn'] == true) echo "logout" ?>" 
 		value="<?php if ($_SESSION['isLoggedIn'] == true) echo "Logout"; else echo "login/Create Account"; ?>">
 	</form>
 </header>
