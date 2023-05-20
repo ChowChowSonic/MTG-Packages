@@ -1,3 +1,4 @@
+from PIL import Image
 import json
 import time
 import requests
@@ -40,12 +41,14 @@ with open("oracle-cards.json", mode='r', encoding='utf8') as f:
 							"img":item['image_uris']['border_crop'],
 							"legalities":item['legalities']
 						}
-				sql = 'INSERT INTO `cards`(name, colors, ramp, draw, tutor, removal, boardwipe, wincon, stax) VALUES (\"'+obj['name']+'\", \"'+toColors(obj['colors'])+'\", 0,0,0,0,0,0,0);'
-				filename = './images/'+item['name'].replace('/', '_').replace("'", "_").replace('"', '_')+'.jpg'; 
+				sql = 'INSERT INTO `cards`(name, colors) VALUES (\"'+obj['name']+'\", \"'+toColors(obj['colors'])+'\");'
+				filename = './images/'+item['name'].replace('/', '_').replace("'", "_").replace('"', '_').replace(':', '_')+'.jpg'; 
 				if update_only and not os.path.isfile(filename):
 					img_data = requests.get(obj['img']).content
 					with open(filename, 'wb') as handler:
 						handler.write(img_data)
+					foo = Image.open(filename)
+					foo.save(filename, optimize=True, quality=60)
 					print("downloaded card:", filename)
 					cursor.execute(sql)
 					time.wait(1)
