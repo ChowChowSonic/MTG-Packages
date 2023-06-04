@@ -1,5 +1,7 @@
 <?php include_once("header.php");
 $voted = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+$votecount = 0; 
+if($_SESSION['isLoggedIn'] == true){
 foreach ($packages as $id => $pack) { 
 	if (key_exists($pack, $_POST)) {
 		$voted[$id] = $db->prepare('SELECT 1 FROM votereciepts WHERE user_id = :id and card_name = :name and section = :sect;');
@@ -12,8 +14,14 @@ foreach ($packages as $id => $pack) {
 			$db->query('UPDATE cards SET ' . $pack . ' = ' . $pack . ' + ' . $_POST[$pack] . ' WHERE name = "' . sanitize($_GET['name']) . '";');
 			$db->query('INSERT INTO votereciepts(user_id, card_name, section) VALUES (' . $_SESSION['id'] . ' ,"' . sanitize($_GET['name']) . '", "' . $packageKeys[$pack] . '");');
 			$voted[$id]= 1;
+			$votecount++; 
 		}
 	}
+}
+$card = $db->prepare('UPDATE accounts SET votecount = (votecount + :c) WHERE username = :user');
+$card->bindValue("c", $votecount, PDO::PARAM_INT); 
+$card->bindValue("user", $_SESSION['user'], PDO::PARAM_INT); 
+$card->execute(); 
 }
 $db->query('DELETE FROM votereciepts WHERE datediff(CURRENT_TIMESTAMP, votedate) > 7');
 $card = $db->prepare('SELECT * FROM `cards` WHERE name = :name;');
