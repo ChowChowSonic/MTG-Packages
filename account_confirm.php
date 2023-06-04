@@ -1,5 +1,6 @@
 <?php include_once('header.php'); 
-	$query = $db->prepare("SELECT 1 FROM `accounts` WHERE username = \"".sanitize($_POST['nam']).'";'); 
+	$query = $db->prepare("SELECT 1 FROM `accounts` WHERE username = :x;");
+	$query->bindValue("x", sanitize($_POST['nam']), PDO::PARAM_STR); 
 	$query->execute(); 
 	if($query->fetch() == 0){
     $hash = password_hash(sanitize($_POST['pw']), PASSWORD_DEFAULT);
@@ -18,4 +19,6 @@
 		echo "Sorry! This username already exists! Please try again using a different name!"; 
 	}
 ?>
-<?php include_once("footer.php")?>
+<script>
+	window.location.href = "login.php";
+</script>

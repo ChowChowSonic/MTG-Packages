@@ -23,6 +23,10 @@ if ($_SESSION["isLoggedIn"] == false) { ?>
 	No account? <a href="create_account.php">Create one here</a>
 	</form>
 <?php
-} else echo "You're logged in!";
+} else {echo "You're logged in!";
 ?>
+<script>
+	window.location.href = "filter.php"; 
+</script>
+<?php } ?>
 <?php include_once("footer.php") ?>

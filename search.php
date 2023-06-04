@@ -7,7 +7,10 @@ $query->bindValue('x', '%'.$_GET['query'].'%', PDO::PARAM_STR);
 $query->bindValue('max', $maxResultPerPage, PDO::PARAM_INT); 
 $query->bindValue('offs',  $maxResultPerPage*sanitize($_GET['page']), PDO::PARAM_INT); 
 $query->execute(); 
-$query = $query->fetchAll();
+$query = $query->fetchAll(); ?>
+<p style="text-align:center;">
+</p>
+<?php
 for($x=0; $x < sizeof($query); $x++){
 	$card = $query[$x]; 
 	if(sizeof($query) == 1){?>
@@ -37,5 +40,8 @@ if(sizeof($query) == 0){
 <button name="page" value="<?php echo max(0, sanitize($_GET['page'])-1);?>">Previous Page</button>
 <button name="page" 
 			value="<?php if(sizeof($query) == $maxResultPerPage) echo sanitize($_GET['page'])+1; else echo sanitize($_GET['page']); ?>">Next Page</button></p>
-<?php echo "<input type='hidden' name='query' value='".sanitize($_GET['query'])."'/></form>";;}
+<?php echo "<input type='hidden' name='query' value='".sanitize($_GET['query'])."'/></form>";;} ?>
+	<p style="text-align:center;">
+</p>
+<?php
 include_once("footer.php")?>

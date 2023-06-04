@@ -21,11 +21,6 @@ $card->bindValue("name", sanitize($_GET['name']));
 $card->execute();
 $card = $card->fetch();
 ?>
-<script>
-	if (window.history.replaceState) {
-		window.history.replaceState(null, null, window.location.href);
-	}
-</script>
 <main style="height:800px;">
 	<img src="./images/<?php echo getFileName($_GET['name']) ?>.jpg" alt="<?php echo getFileName(sanitize($_GET['name'])) ?>.jpg" style="float:left;">
 	<?php if ($_SESSION['isLoggedIn'] == true) { ?>
@@ -65,5 +60,7 @@ $card = $card->fetch();
 	<a href=""><button>Purchase @ CardHoarder (Affiliate Link)</button></a><br> -->
 
 	<a href="https://scryfall.com/search?q=<?php echo sanitize($card['name']) ?>"><button>View on Scryfall</button></a><br>
-</main>
+</main><p style="text-align:center;">
+</p>
+
 <?php include_once("footer.php")?>
