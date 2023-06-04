@@ -35,6 +35,17 @@
 	<form>
 		<p style="text-align:center;">
 			<button name="page" value="<?php echo max(0, sanitize($_GET['page']) - 1); ?>">Previous Page</button>
+			<?php 
+			for($x = 4; $x > 0; $x--)
+				if($_GET['page']-$x >= 0){ ?>
+				<button name="page" value="<?php echo max(0, sanitize($_GET['page']) - $x); ?>"><?php echo max(0, sanitize($_GET['page']) - $x); ?></button>
+			<?php } ?>
+			<button name="page" disabled="true" value="<?php echo sanitize($_GET['page']) ?>"><?php echo sanitize($_GET['page']) ?></button>
+			<?php 
+			for($x = 1; $x <= 4; $x++)
+				if($_GET['page']+$x >= 0 && count($json) == $maxResultPerPage){ ?>
+				<button name="page" value="<?php echo max(0, sanitize($_GET['page']) + $x); ?>"><?php echo max(0, sanitize($_GET['page']) + $x); ?></button>
+				<?php } ?>
 			<button name="page" value="<?php if (sizeof($json) == $maxResultPerPage) echo sanitize($_GET['page']) + 1;
 										else echo sanitize($_GET['page']); ?>">Next Page</button>
 		</p>
